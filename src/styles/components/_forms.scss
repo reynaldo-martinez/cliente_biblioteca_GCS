@@ -1,0 +1,66 @@
+.forms__form{
+    height: 65vh;
+    width: 40vw;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c517.709C107.401%2c532.741%2c218.866%2c538.843%2c317.922%2c494.697C425.383%2c446.805%2c533.246%2c372.478%2c573.732%2c262.014C613.656%2c153.083%2c538.436%2c39.681%2c527.006%2c-75.772C514.87%2c-198.365%2c568.964%2c-332.176%2c504.514%2c-437.164C437.991%2c-545.529%2c308.491%2c-599.454%2c185.565%2c-631.976C64.7%2c-663.953%2c-61.558%2c-653.408%2c-181.668%2c-618.704C-302.163%2c-583.889%2c-419.882%2c-529.77%2c-500.555%2c-433.733C-580.618%2c-338.422%2c-622.525%2c-214.411%2c-625.81%2c-89.978C-628.898%2c26.987%2c-586.394%2c141.562%2c-518.254%2c236.679C-457.18%2c321.933%2c-357.642%2c363.058%2c-265.451%2c413.05C-180.112%2c459.327%2c-96.142%2c504.253%2c0%2c517.709' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 1030.715C1543.748 1021.367 1652.648 1082.307 1746.123 1036.336 1841.944 989.211 1898.042 886.344 1936.28 786.643 1973.0439999999999 690.785 1972.2269999999999 587.198 1957.336 485.618 1942.478 384.26300000000003 1905.31 290.754 1850.865 203.983 1788.463 104.52999999999997 1735.936-35.11400000000003 1619.796-52.32899999999995 1500.398-70.02599999999995 1427.345 88.51600000000002 1312.012 124.113 1199.278 158.90800000000002 1063.1689999999999 82.267 966.159 149.414 866.77 218.20800000000003 806.208 349.086 812.593 469.79200000000003 818.812 587.354 949.895 654.403 998.5409999999999 761.608 1047.368 869.212 995.3489999999999 1033.3890000000001 1096.245 1094.894 1197.833 1156.821 1321.505 1041.392 1440 1030.715' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    left: 0;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin:auto;
+    margin-top: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: 5px 5px 3px black;
+
+
+}
+
+.text, .forms__books-select{
+width: 80%;
+height: 35px;
+outline: none;
+border: 0px;
+margin-bottom: 15px;
+border-radius: 10px;
+text-align: center;
+font-size: 15px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(196, 190, 190);
+font-weight: lighter;
+background-color: darken($color: #233D4D, $amount: 2);
+}
+
+.forms__submit{
+    background-color:lighten($color: #233D4D, $amount: 8);
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    outline: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color .3s;
+
+}
+   .forms__submit:hover{
+        background-color:lighten($color: #233D4D, $amount:20) ;
+    }
+
+    .forms__formRequest{
+        width:80%;
+        height:100vh;
+       
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+
+

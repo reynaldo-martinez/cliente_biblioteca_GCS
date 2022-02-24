@@ -1,0 +1,38 @@
+.sideBar__Navbar {
+  background-color: rgba(13, 27, 45, 1);
+  width: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .sideBar__navlink {
+    margin-bottom: 28px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: font-size 0.3s;
+    
+
+    i {
+      margin-right: 5px;
+      
+    }
+  }
+  .sideBar__navlink:hover {
+    font-size: 20px;
+  }
+}
